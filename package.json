@@ -5,6 +5,16 @@
   "repository": "https://github.com/Teyler7/Glance.git",
   "author": "Teyler Halama <teyler.halama@gmail.com>",
   "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
